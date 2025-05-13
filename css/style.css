@@ -1,0 +1,686 @@
+/* background:#bdcebe - голубо-сірий*/
+/* background:#ada397 - темно фіолетовий*/
+/* background:#eca1a6 яскраво рожевий */
+/* background:#d6cbd3 ніжно фіолетовий світлий */
+/* background:#e6e2d3 світло сіро-фіолетовий */
+/* background:#dac292 кремовий тілесний */
+/* background:#b9936c темний тілесний */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+:root {
+    --green-color: #bdcebe;
+    --drkpurple-color: #ada397;
+    --pink-color: #eca1a6;
+    --lghpurple-color: #d6cbd3;
+    --grpurple-color: #e6e2d3;
+    --cream-color: #dac292;
+    --drkcream-color: #b9936c;
+    --telegram-color: rgb(65, 136, 184);
+    --viber-color: rgb(140, 61, 206);
+    --black-color: black;
+    --font-size: 16px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: var(--black-color);
+}
+
+li {
+    list-style: none;
+}
+
+.container-nav {
+    background: var(--lghpurple-color);
+    padding: 2% 10%;
+    text-align: center;
+}
+
+a:-webkit-any-link {
+    color: var(--black-color);
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+/* ------------------Menu style----------------------------- */
+.header__top-wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    height: 100%;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,.1);
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    -webkit-transition: -webkit-box-shadow .3s linear;
+    transition: -webkit-box-shadow .3s linear;
+    -o-transition: box-shadow .3s linear;
+    -moz-transition: box-shadow .3s linear;
+    transition: box-shadow .3s linear;
+    transition: box-shadow .3s linear, -webkit-box-shadow .3s linear;
+    z-index: 2;
+}
+
+.header__top-wrap {  /* полоска(блок) для меню */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 28px;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+}
+
+li.category {
+    list-style: disc;
+}
+
+
+.bot {
+    background: var(--telegram-color);
+}
+
+.viber {
+    background: var(--viber-color);
+}
+
+.button {
+    display: block;
+    border: 1px solid var(--humble-black);
+    border-radius: 42px;
+    padding: 12px 24px;
+    width: 60%;
+    height: 45px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    margin:0 auto 20px;
+    text-align: center;
+}
+
+.button i {
+    margin-right: 10px;
+}
+
+.projects {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+/* ------------------------------------ */
+
+
+/* ------------header styles------------------------ */
+.wrapper {
+    background: var(--cream-color);
+}
+.header__login {
+    color: var(--black-color);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 64px;
+    height: 40px;
+}
+/* :after, :before, html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+.header__box-right--new{
+    display: flex;
+}
+
+.btn_btn-success{
+    border: 1px solid var(--drkpurple-color);
+    border-radius: 10px;
+    background: var(--lghpurple-color);
+
+}
+img{
+    width: 100%;
+	height: 100%;
+    border-radius: 40px;
+}
+/* -------------------------------------------- */
+
+/* -------------Wrapper styles----------------------- */
+
+.heading {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--humble-black);
+    margin-bottom: 40px;
+    background-image: url('../img/around.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.wrapp {
+    text-align: center;
+    padding: 32px 0px 0px 0px;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.help {
+    background-color: var(--lghpurple-color);
+}
+button {
+    border: 1px solid var(--humble-black);
+    border-radius: 42px;
+    padding: 6px 0px;
+    width: 156px;
+    height: 45px;
+    background-color: var(--pink-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--pure-white);
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------------- */
+
+
+/* ------------Categories styles------------------- */
+
+
+.categories {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ellipse {
+    line-height: 260%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 183px;
+    background-image: url(../img/elipse_3.png);
+}
+
+.category {
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.category span {
+    display: block;
+}
+
+.material.material-symbols-outlined {
+    font-size: 50px;
+    text-align: center;
+}
+
+.material {
+    color: var(--drkcream-color);
+    text-decoration-line: overline;
+}
+
+/* ----------------------------------------- */
+
+
+/* ------------Video styles------------------- */
+
+.title {
+    font-family: var(--second-family);
+    font-weight: 560;
+    font-size: 26px;
+    text-align: center;
+    color: var(--humble-black);
+    margin-bottom: 36px;
+}
+
+.scy {
+    height: 128px;
+    line-height: 170%;
+    background-size: 217px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../img/scy.png);
+}
+
+.help-1 {
+    background-color: var(--green-color);
+}
+
+.infovideo {
+    text-align: justify;
+    margin-bottom: 20px;
+    /* padding: 20px 20px; */
+    font-size: 20px;
+    font-weight: 380;
+}
+
+video{
+    width: 100%;
+    border-radius: 32px;
+}
+.video {
+    text-align: center;
+}
+
+/* ----------------------------------------------- */
+
+/* ---------Statustics style-------------- */
+
+/* .statustic {
+    margin-bottom: 12px;
+} */
+.cloud {
+    line-height: 568%;
+    background-size: 451px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../img/cloud.png);
+}
+
+.statustic-line {
+    display: flex;
+    margin-bottom: 38px;
+    gap: 24px;
+}
+.oblik{
+    width: 52%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-oblik {
+    margin-top: 24px;
+}
+.oblik-purple, .oblik-green, .oblik-pink, .oblik-yellow {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+}
+.oblik-purple {
+    background-image:  url('../img/circle_purple.png');
+}
+.oblik-green { 
+    background-image:  url('../img/circle_green.png');
+}
+.oblik-pink {
+    background-image:  url('../img/circle_pink.png');
+}
+.oblik-yellow {
+    background-image:  url('../img/circle_yellow.png');
+} */
+.img-box {
+    border-radius: 40px;
+}
+/* ----------------------------------------------- */
+
+/* ------------help-projects styles--------------------- */
+.all-projects {
+    margin-bottom: 12px;
+}
+.help-projects {
+    display: flex;
+    gap: 36px;
+}
+img.photo {
+    border-radius: 20px;
+}
+.infocategory{
+    font-weight: 600;
+}
+.cash{
+    font-size: 16px;
+    font-weight: 600;
+}
+.project {
+    width: 240px;
+    height: auto;
+    background: grey;
+    border-radius: 28px;
+    padding: 20px;
+}
+
+/* ----------------------------------------------- */
+
+
+#statics_mob_footer_help_btn:hover {
+    background: var(--grpurple-color);
+}
+
+#statics_mob_footer_help_btn {
+    border-color: var(--drkpurple-color);
+    background-color: var(--green-color);
+    color: #FFFFFF;
+}
+
+#statics_header_help_btn:hover {
+    background: var(--grpurple-color);
+}
+
+#statics_header_help_btn {
+    border-color: var(--drkpurple-color);
+    background-color: var(--green-color);
+    color: #FFFFFF;
+}
+
+.hide {
+    height: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.main-menu-mobile {
+    width: 100%;
+    left: 0;
+    background: var(--green-color);
+    position: absolute;
+    font-size: 30px;
+    z-index: 1;
+}
+
+/* ----- Global styles -------- */
+.d-none {
+    display: none!important;
+}
+.mobile-content-wrap {
+    padding: 0px 20px;
+}
+.rotate-180 {
+    transform: rotate(180deg);
+}
+.link {
+    text-decoration: none;
+}
+.margin-bottom{
+    margin-bottom: 32px;
+}
+hr {
+    height: 2px;
+    background: var(--green-color);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 32px;
+}
+/* ----------------------------- */
+
+
+
+/* -------Desktop version----- */
+
+/* -------Line start----- */
+
+@media (min-width: 700px){
+	.text-block-6 {
+        font-size: 20px;
+    }
+}
+
+/* ----------------------------- */
+
+
+/* -------Header menu----- */
+
+@media (min-width: 362px){
+	.header__login {
+        font-size: 20px;
+    }
+    /* .logo {
+        width: 90px;
+        height: 80px;
+     } */
+} 
+
+@media (min-width: 500px){
+	.material-symbols-outlined{
+        font-size: 38px!important;
+    }
+}
+
+@media (min-width: 700px){
+	.header__login {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 820px){
+	/* .header__login {
+        font-size: 28px;
+    } */
+    /* ua і меню добавиться або пошук */
+}
+
+@media (min-width: 900px){
+    .logo {
+        width: 124px;
+        height: 114px;
+    }
+}
+
+@media (min-width: 1000px){
+	.header__login {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1100px){
+    .logo {
+        width: 120px;
+        height: 74px;
+    }
+}
+
+@media (min-width: 1500px){
+    .logo {
+        width: 160px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 2000px){
+    .logo {
+        width: 200px;
+        height: 180px;
+    }
+}
+
+
+@media (min-width: 2500px){
+    .logo {
+        width: 220px;
+        height: 200px
+    }
+}
+/* ----------------------------- */
+
+
+/* --------Wrapper------ */
+
+@media (min-width: 280px) and (max-width: 427px) {
+    .heading {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 380px){
+    .description {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 510px){
+    button {
+        width: 172px;
+        height: 56px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 537px){
+	.heading {
+        font-size: 52px;
+        /* line-height: 280%;
+        background-position: right;
+        background-size: 230px; */
+    }
+    .description {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 570px){
+	.heading {
+        font-size: 64px;
+        /* line-height: 280%;
+        background-position: right; Змінити якось
+        background-size: 230px; */
+    }
+    .description {
+        font-size: 28px;
+    }
+    button {
+        width: 284px;
+        height: 64px;
+        font-size: 28px;
+        line-height: 150%;
+    }
+    .wrapp {
+        padding: 60px 64px;
+    }
+}
+
+@media (min-width: 700px){
+    .description {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 811px){
+    .heading {
+        line-height: 236%;
+        background-position: right;
+        background-size: 286px;
+    }
+    button {
+        width: 364px;
+        height: 92px;
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 933px){
+    .wrapp {
+        padding: 100px 104px;
+    }
+}
+
+@media (min-width: 1560px){
+	.description {
+        font-size: 52px;
+    }
+}
+/* ------------------------------- */
+
+/* ---------Projects category--------------- */
+
+@media (min-width: 500px){
+    .material-symbols-outlined {
+        font-size: 52px !important;
+    }
+    .categories {
+        font-size: 28px;
+        padding: 0px 32px!important;
+    }
+}
+
+@media (min-width: 700px){
+    .material {
+        text-decoration-line: none;
+    }
+    .categories{
+        display: flex;
+    }
+}
+
+@media (min-width: 900px){
+    .material-symbols-outlined {
+        font-size: 48px !important;
+    }
+    .categories{
+        font-size: 28px;
+        display: flex;
+    }
+}
+
+/* ------------------------------- */
+
+/* ------------Video styles------------------- */
+
+
+@media (min-width: 700px){
+    .title {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1066px){
+    .infovideo {
+        font-size: 28px;
+    }
+}
+
+/* --------------------------------------- */
+
+/* ------------Oblik styles------------------- */
+
+@media (min-width: 670px){
+    .oblik {
+        font-size: 24px;
+    }
+}
+@media (min-width: 700px){
+    .oblik {
+        font-size: 32px;
+    }
+}
+@media (min-width: 900px){
+    .oblik {
+        font-size: 40px;
+    }
+}
+
+/* --------------------------------------- */

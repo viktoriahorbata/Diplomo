@@ -1,0 +1,81 @@
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(236, 120, 42);
+    text-align: center;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px  #fff,
+    0 0 30px  #fff,
+    0 0 40px  rgb(230, 180, 73),
+    0 0 70px  rgb(230, 180, 73),
+    0 0 80px  rgb(230, 180, 73),
+    0 0 100px rgb(230, 180, 73),
+    0 0 150px rgb(230, 180, 73);
+}
+h3{
+    color: rgb(22, 16, 112);
+}
+h2{
+    color: rgb(94, 24, 160);
+    text-align: right;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 10px #37178f;
+    /* text-decoration: underline; */
+}
+.info{
+    text-align: left;
+    font-size: 20px;
+}
+.hobby{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(128, 15, 99);
+    text-decoration: underline;
+}
+.education{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(60, 124, 31);
+    font-style: oblique;
+}
+ul{
+    font-size: 10px;
+    text-align: center;
+}
+img{
+    width: 330px;
+    height: auto;
+    size: 200px;
+    display: inline-block;
+    vertical-align: auto;
+}
+.data{
+    color: rgb(58, 58, 85);
+    text-align: right;
+    font-size: 20px;
+    font-style: oblique;
+}
+.works{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(236, 71, 42);
+    font-weight: 600;
+    text-shadow: 0 0 20px #db7719,
+    0 0 20px  #e5c096,
+    0 0 30px  #ecb473,
+    0 0 40px  rgb(212, 147, 86),
+    0 0 70px  rgb(204, 132, 73),
+    0 0 80px  rgb(201, 119, 26),
+    0 0 100px rgb(199, 118, 13),
+    0 0 150px rgb(223, 83, 18);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
